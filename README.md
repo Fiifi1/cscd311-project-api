@@ -17,6 +17,7 @@ First do npm install
 
 # simply run 'nodemon(node) server.js' in the application directory
 # Use localhost/PORT (3000) to start the application
+  You can equally follow the link generated after the link is initiated to launch the app.
 
 
 
