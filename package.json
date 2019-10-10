@@ -1,0 +1,24 @@
+{
+  "name": "cscd311-project-api",
+  "version": "1.0.0",
+  "description": "First webtech project featuring student residential application system ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fiifi1/cscd311-project-api.git"
+  },
+  "author": "Fiifi Hayford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fiifi1/cscd311-project-api/issues"
+  },
+  "homepage": "https://github.com/Fiifi1/cscd311-project-api#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3"
+  }
+}

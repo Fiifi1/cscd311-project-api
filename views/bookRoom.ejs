@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Room</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="/css/styles.min.css">
+</head>
+
+<body>
+    <div class="jumbotron justify-content-center align-items-center">
+        <h1 class="text-center" style="margin:6px;">Room Allocation Form</h1>
+        <p class="text-center" style="margin:9px;">Select your Room your room from the prefered hall and Confirm</p>
+        <div align="center">
+            <form method="POST" action="bookRoom" style="padding:0px;width:560px; width: 80%; box-align: center;">
+                <div class="form-group"><select name="hallname" class="form-control"
+                        style="padding:6px;margin:10px;width:550px;height:40px;">
+                        <option value="Select Hall" selected="">Select Hall</option>
+                        <option value="Akuafo Hall">Akuafo Hall</option>
+                        <option value="Mensah Sarbah">Mensah Sarbah</option>
+                        <option value="Legon Hall">Legon Hall</option>
+                        <option value="Commonwealth Hall">Commonwealth Hall</option>
+                        <option value="Volta Hall">Volta Hall</option>
+                    </select>
+                    <select name="room" class="form-control" style="padding:6px;margin:10px;width:550px;height:40px;">
+                        <option value="Choose Room" selected="">Choose Room</option>
+                        <option value="R 001">R 001</option>
+                        <option value="R 002">R 002</option>
+                        <option value="R 003">R 003</option>
+                        <option value="R 004">R 004</option>
+                        <option value="R 005">R 005</option>
+                        <option value="R 006">R 006</option>
+                        <option value="R 007">R 007</option>
+                        <option value="R 008">R 008</option>
+                    </select>
+                    <button class="btn btn-primary" type="submit" style="height:40px;margin:11px;">Submit</submit>
+                </div>
+            </form>
+        </div>
+        <p></p>
+    </div>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top navbar-transparency"
+        style="min-height:48px;height:50px;">
+        <div class="container"><a class="navbar-brand" href="#">Room Alocation</a><button class="navbar-toggler"
+                data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown"
+                            aria-expanded="false" href="#">Profile</a>
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" role="presentation" href="#"><%= data.studentName%></a>
+                            <a class="dropdown-item" role="presentation" href="#"><%= data.studentMail %></a>
+                            <a class="dropdown-item" role="presentation" href="#">Log Out</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="/js/script.min.js"></script>
+</body>
+
+</html>
