@@ -18,7 +18,7 @@
   "homepage": "https://github.com/Fiifi1/cscd311-project-api#readme",
   "dependencies": {
     "ejs": "^2.7.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongoose": "^5.7.3"
   }
 }
